@@ -4,7 +4,18 @@ body {
   flex-direction: column; }
 
 .main {
-  margin-top: 15px;
   flex: 1 0 auto; }
+
+#author {
+  padding-top: 50px; }
+
+#contract {
+  padding-top: 50px; }
+
+#project {
+  padding-top: 50px; }
+
+#service {
+  padding-top: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
