@@ -12,6 +12,8 @@ License: [MIT](LICENSE)
   - License: [MIT](http://sass-lang.com/documentation/file.MIT-LICENSE.html)
 * [Google Fonts](https://fonts.google.com/)
   - Privacy Policy: [Google Privacy Policy](https://www.google.com/policies/privacy/)
+* [Google Material Icon](http://http://google.github.io/material-design-icons)
+  - License: [Apache](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ## Developing rules
 * fork the repo and create your own branch
