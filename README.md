@@ -21,3 +21,4 @@ License: [MIT](LICENSE)
 * always edit your version on your branch
 * always add dependency on README.md when using new plugin, framework, or etc.
 * read [Coding Style](doc/CodingStyle.md)
+* when dealing with issue, add "Fix issue #number, descriptions..." in commit

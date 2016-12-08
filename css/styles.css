@@ -2,27 +2,16 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: "cwTeXKai", "Tangerine", serif; }
+  font-family: "Lato", "cwTeXHei", sans-serif;
+  background-color: #fafafa; }
 
 .main {
   flex: 1 0 auto; }
 
-#author {
-  padding-top: 50px; }
-
-#contract {
-  padding-top: 50px; }
-
 #project {
-  padding-top: 50px; }
-
-#service {
-  padding-top: 50px; }
+  margin: 40px 0; }
 
 #contact {
-  padding-top: 50px; }
-
-#process {
-  padding-top: 50px; }
+  margin: 40px 0; }
 
 /*# sourceMappingURL=styles.css.map */
