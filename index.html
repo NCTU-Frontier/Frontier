@@ -4,57 +4,17 @@
     <!--google analytics-->
     <script type="text/javascript" src="js/ga.js"></script>
 
-    <style>
-      /* code for animated blinking cursor */
-      .typed-cursor{
-        opacity: 1;
-        font-weight: 100;
-        -webkit-animation: blink 0.7s infinite;
-        -moz-animation: blink 0.7s infinite;
-        -ms-animation: blink 0.7s infinite;
-        -o-animation: blink 0.7s infinite;
-        animation: blink 0.7s infinite;
-      }
-      .type-font{
-        position: relative;
-        top: 180px;
-        z-index: 1;
-      }
-      @-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-      }
-      @-webkit-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-      }
-      @-moz-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-      }
-      @-ms-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-      }
-      @-o-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-      }
-    </style>
     <meta charset="UTF-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>ToolBox</title>
+
     <!-- Import Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Google Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css">
     <!-- Import materialize.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link rel="stylesheet" href="css/styles.css"/>
@@ -74,6 +34,7 @@
         </div>
       </nav>
     </div>
+
     <!-- Body -->
     <!-- Top Background Picture -->
     <div class="main">
@@ -90,7 +51,7 @@
       </div>
       <div class="container">
         <!-- Author -->
-        <div class="section white" id="author">
+        <div class="section white scrollspy" id="author">
           <div class="row">
             <h3 class="header">團隊成員</h3>
             <p class="grey-text text-darken-3 lighten-3">ToolBox 是一個由一群實力堅強的資訊工程師以及系統工程師所組成的團隊。我們致力於為客戶導入機器學習、人工智慧等尖端技術，改善經營效率、創造商業價值。</p>
@@ -239,8 +200,9 @@
             </div>
           </div>
         </div>
+
         <!-- Service -->
-        <div id="process">
+        <div id="process" class="scrollspy">
           <h3 class="header">工作流程</h3>
           <p>ToolBox 的標準工作流程為：需求釐清、系統架構規劃、定期確認進度、事後維護分析。我們用最嚴謹的程序、最先進的資料科學與前後端開發技術，將最大的價值交付予客戶。</p>
           <div class="row">
@@ -302,8 +264,9 @@
             </div>
           </div>
         </div>
+
         <!-- Project -->
-        <div id="project">
+        <div id="project" class="scrollspy">
           <h3 class="header">完成 / 進行中 專案</h3>
           <div class="collection">
             <a target="_blank" href="http://food.nctu.me" class="collection-item">NCTU Food Ordering System</a>
@@ -313,14 +276,17 @@
             <a target="_blank" href="#!" class="collection-item">NCTU Library</a>
           </div>
         </div>
+
         <!-- Contact us -->
-        <div id="contact">
+        <div id="contact" class="scrollspy">
           <h3 class="header">聯絡我們</h3>
           <h5>FB: <a target="_blank" href="https://www.facebook.com/%E4%B8%8D%E5%B0%88%E6%A5%AD%E9%98%BF%E5%AE%85%E7%9A%84%E7%A7%91%E6%8A%80%E5%B0%8F%E8%AD%98-1564897363824637/">ToolBox</a></h5>
           <h5>Email: <a href="mailto: sz110010@gmail.com">sz110010@gmail.com</a></h5>
         </div>
+
         <!-- Contract -->
-        <div id="contract"></div>
+        <div id="contract" class="scrollspy"></div>
+
       </div>
     </div>
     <!-- Footer -->
