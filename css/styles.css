@@ -8,6 +8,11 @@ body {
 .main {
   flex: 1 0 auto; }
 
+.typed-layout {
+  position: relative;
+  top: 180px;
+  z-index: 1; }
+
 #project {
   margin: 40px 0; }
 
