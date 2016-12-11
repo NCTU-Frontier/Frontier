@@ -8,15 +8,42 @@ body {
 .main {
   flex: 1 0 auto; }
 
-.typed-layout {
-  position: relative;
-  top: 180px;
-  z-index: 1; }
-
 #project {
   margin: 40px 0; }
 
 #contact {
   margin: 40px 0; }
+
+#card-1, #card-2, #card-3, #card-4, #card-5, #card-6 {
+  height: 240px;
+  width: 240px;
+  margin: 20px; }
+
+.front {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden; }
+
+.front > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%); }
+
+.back {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  background-color: #eee;
+  word-wrap: break-word;
+  line-height: 230px; }
+
+.author {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
