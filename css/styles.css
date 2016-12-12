@@ -46,4 +46,9 @@ body {
 .author {
   margin-top: 50px; }
 
+.typed-layout {
+  z-index: 1;
+  position: relative;
+  top: 180px; }
+
 /*# sourceMappingURL=styles.css.map */
