@@ -4,6 +4,7 @@
 $(document).ready(function(){
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
+    $('.modal').modal();
 });
 
 $('#card-1').flip({
