@@ -63,6 +63,9 @@ body {
 .position {
   font-size: 10px; }
 
+footer.page-footer {
+  padding-top: 0px; }
+
 @keyframes blink {
   0% {
     opacity: 1; }
