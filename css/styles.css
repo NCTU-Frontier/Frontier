@@ -40,8 +40,7 @@ body {
   font-size: 30px;
   font-weight: 200;
   background-color: #eee;
-  word-wrap: break-word;
-  line-height: 230px; }
+  word-wrap: break-word; }
 
 .author {
   margin-top: 50px; }
@@ -57,11 +56,32 @@ body {
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite; }
 
+.name-position {
+  position: relative;
+  height: 35%;
+  width: 100%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  margin: 0; }
+
 .name {
-  font-size: 24px; }
+  font-size: 28px;
+  height: 25%;
+  margin: 15% 0 0 0; }
 
 .position {
-  font-size: 10px; }
+  font-size: 20px;
+  height: 25%;
+  bottom: 0; }
+
+.more {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  background: #CEECF5; }
 
 footer.page-footer {
   padding-top: 0px; }
