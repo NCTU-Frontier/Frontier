@@ -57,6 +57,9 @@ body {
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite; }
 
+footer.page-footer {
+  padding-top: 0px; }
+
 @keyframes blink {
   0% {
     opacity: 1; }
